@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A67746;
+}
+
+main {
+    width: 100%;
+    height: 60%;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 5px;
+}
+
+h2 {
+    margin: 5px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #66492B;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    list-style: none;
+}
+
+li a {
+    font-size: 1rem;
+    margin-left: 30px;
+    color: white;
+}
+
+li a:hover {
+    background-color: sienna;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    margin: 70px;
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5spx;
+}
+
+footer {
+    background-color: #F2AE66;
+    margin: 0px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mal {
+    width: 350px;
+    height: 350px;
+
+}
+
+section {
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+h1 {
+    font-family: 'Konkhmer Sleokchher', cursive;
+    text-align: center;
+    color: black;
+
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-left: 450px;
+}
+
+.ma {
+    color: black;
+
+}
+
+.yo {
+    width: 45px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.yop {
+    display: inline;
+}
+
+header {
+    background-image: url(./img/Malba_-_Milla_Museos\ \(1\).jpg);
+    margin-bottom: 0px;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-color: #CC9356;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 30px;
+    color: white;
+
+}
+.gr {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    animation-duration: 2s;
+}
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.anticipado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media (max-width: 768px) {
+    body {
+        width: 100vw;
+    }
+
+    header {
+        background-position: 100%;
+        width: 100vw;
+    }
+     ul{
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        }
+    section {
+        margin-left: 100px;
+    }
+    img {
+        width: 60vw;
+    }
+
+    .ant {
+        margin: 25px;
+        padding: 20px;
+    }
+
+    .ant h3 {
+        text-align: center;
+    }
+
+    .ant button {
+        margin-left: 120px;
+    }
+
+    .anticipado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
